@@ -95,10 +95,10 @@ figure against the manuscript. Current status:
 If you use these materials, please cite the working paper:
 
 ```bibtex
-@techreport{Assis2026wp01,
-  author      = {Assis, Antônio Guilherme Coelho de},
-  title       = {The Accounting for Value: Applying Penman's Framework
-                 to Three Brazilian Archetypes},
+@techreport{CoelhoDeAssis2026wp01,
+  author      = {Coelho de Assis, Antônio Guilherme},
+  title       = {Applying Accounting-Based Pricing Logic to Book Value:
+                 Three Brazilian Archetypes},
   institution = {Amazon Institute of Value Investing and Applied Data Science},
   type        = {Return to Fundamentals Working Paper},
   number      = {2026.01},
