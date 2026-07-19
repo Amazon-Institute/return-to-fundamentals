@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use these materials, please cite the working paper below."
+title: "Replication materials for: The Accounting for Value — Applying Penman's Framework to Three Brazilian Archetypes"
+authors:
+  - family-names: "de Assis"
+    given-names: "Antônio Guilherme Coelho"
+    affiliation: "Amazon Institute of Value Investing and Applied Data Science"
+version: "1.0.0"
+date-released: "2026-07-18"
+license: MIT
+keywords:
+  - residual earnings
+  - accounting-based valuation
+  - financial statement analysis
+  - Brazil
+  - replication
+preferred-citation:
+  type: report
+  title: "The Accounting for Value: Applying Penman's Framework to Three Brazilian Archetypes"
+  authors:
+    - family-names: "de Assis"
+      given-names: "Antônio Guilherme Coelho"
+  institution:
+    name: "Amazon Institute of Value Investing and Applied Data Science"
+  number: "2026.01"
+  year: 2026
