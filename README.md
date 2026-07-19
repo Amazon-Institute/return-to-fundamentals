@@ -1,4 +1,4 @@
-# The Accounting for Value: Applying Penman's Framework to Three Brazilian Archetypes
+# Applying Accounting-Based Pricing Logic to Book Value: Three Brazilian Archetypes
 
 **Replication materials for Working Paper 2026.01**
 Return to Fundamentals series · Amazon Institute of Value Investing and Applied Data Science
