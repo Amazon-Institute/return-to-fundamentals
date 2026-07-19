@@ -32,7 +32,8 @@ src/
 tests/
     test_accounting.py        thirteen unit tests over known cases
 scripts/
-    verify_wp01.py            re-derives every figure of the paper and compares
+    verify_wp01.py            re-derives the accounting tables and valuations
+    verify_vp.py              re-derives value-to-price and building blocks
     demo_re.py                end-to-end demonstration on synthetic data
 docs/
     conventions.md            the accounting conventions, stated and justified
@@ -74,7 +75,8 @@ Requirements: Python 3.10 or later, `pandas`, `pytest`.
 pip install pandas pytest
 
 python -m pytest tests/          # 13 tests over known accounting cases
-python scripts/verify_wp01.py    # re-derives and checks every published figure
+python scripts/verify_wp01.py    # accounting tables, valuations, sensitivity
+python scripts/verify_vp.py      # value-to-price and building block shares
 ```
 
 `verify_wp01.py` recomputes ROCE under both candidate conventions, all
@@ -85,6 +87,8 @@ figure against the manuscript. Current status:
 - 21 of 21 ROCE figures matched to the beginning-book-value convention
 - 9 of 9 valuation scenarios reproduced, maximum deviation R$ 0.0007 per share
 - Clean surplus verified for every firm-year within R$ 0.004 per share
+- 27 of 27 value-to-price figures reproduced across three reference dates
+- Building block shares reproduced for all three firms
 
 ## Citation
 
