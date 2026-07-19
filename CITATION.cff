@@ -1,9 +1,9 @@
 cff-version: 1.2.0
 message: "If you use these materials, please cite the working paper below."
-title: "Replication materials for: The Accounting for Value — Applying Penman's Framework to Three Brazilian Archetypes"
+title: "Replication materials for: Applying Accounting-Based Pricing Logic to Book Value — Three Brazilian Archetypes"
 authors:
-  - family-names: "de Assis"
-    given-names: "Antônio Guilherme Coelho"
+  - family-names: "Coelho de Assis"
+    given-names: "Antônio Guilherme"
     affiliation: "Amazon Institute of Value Investing and Applied Data Science"
 version: "1.0.0"
 date-released: "2026-07-18"
@@ -13,14 +13,11 @@ keywords:
   - accounting-based valuation
   - financial statement analysis
   - Brazil
-  - replication
-preferred-citation:
-  type: report
-  title: "The Accounting for Value: Applying Penman's Framework to Three Brazilian Archetypes"
-  authors:
-    - family-names: "de Assis"
-      given-names: "Antônio Guilherme Coelho"
-  institution:
-    name: "Amazon Institute of Value Investing and Applied Data Science"
-  number: "2026.01"
-  year: 2026
+cd ~/Documents/system-2026/return-to-fundamentals && python3 - <<'EOF'
+p = "README.md"
+s = open(p).read()
+s = s.replace("The Accounting for Value: Applying Penman's Framework to Three Brazilian Archetypes",
+              "Applying Accounting-Based Pricing Logic to Book Value: Three Brazilian Archetypes")
+s = s.replace("Penman's Framework", "Penman's work")
+open(p, "w").write(s)
+print("trocas feitas")
