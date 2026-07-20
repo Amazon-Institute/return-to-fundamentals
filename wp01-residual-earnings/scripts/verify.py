@@ -7,7 +7,7 @@ Run:  python scripts/verify_wp01.py
 """
 
 import sys, os
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "src"))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "..", "src"))
 
 import numpy as np
 import pandas as pd
@@ -15,7 +15,7 @@ import pandas as pd
 R = 0.10  # required return, per Section 6.1
 
 df = pd.read_csv(os.path.join(os.path.dirname(__file__), "..",
-                              "data", "canonical_wp01.csv"))
+                              "data", "canonical.csv"))
 df = df.sort_values(["firm", "year"]).reset_index(drop=True)
 df["bps_open"] = df.groupby("firm")["bps"].shift(1)
 
